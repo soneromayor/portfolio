@@ -1,0 +1,100 @@
+h5{
+    font-size: 0.8rem;
+}
+.contenedor{
+    justify-content: center;
+    width: 80%;
+    gap: 20px;
+position: absolute;
+bottom:170px;
+}
+header{
+    background-position: right -100px top 0px;
+
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20% 0;
+}
+
+.container{
+    margin-top: 50px;
+    gap: 50px;
+        padding: 0px 50px;
+
+}
+.proyecto{
+    min-width: 200px;
+    max-width: 400px;
+    padding: 15px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #1C0040;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px 5px #AD6CFF;
+
+}
+.img-proyecto{
+    width: 100%;
+    border-radius: 7px;
+}
+.titulo-proyecto{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+}
+.mini-tech{
+    width: 15px;
+}
+.p-proyectos{
+    font-size: 0.7rem;
+
+}
+.btn-proyecto{
+    background-color: #9747FF;
+    padding: 5px 0;
+    border-radius: 7px;
+    color: #fff;
+    text-align: center;
+    font-size: 0.8rem;
+
+}
+
+.btn-proyecto{
+    background-color: #9747FF;
+    padding: 10px 0;
+    border-radius: 7px;
+    color: #fff;
+    text-align: center;
+
+}
+.logos{
+    width: 60%;
+    padding-top: 40px;
+display: grid;
+grid-template-columns:repeat(auto-fit, minmax(40px, 1fr));
+gap: 20px;
+}
+.logo{
+width: 100%;
+height: auto;
+}
+.lista{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0;
+    color: #fff;
+}
+.estudios-contenedor{
+    padding: 20px 50px;
+    display: grid;
+grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));
+gap: 50px;
+}
